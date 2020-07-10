@@ -9,7 +9,7 @@ var grd1,grd2,pt,gameState,ball,swing;
 var blocks=[];
 
 function setup() {
-  createCanvas(1355,621);
+  createCanvas(1340,621);
 	engine = Engine.create();
   world = engine.world;
   Engine.run(engine);
